@@ -1,0 +1,207 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J1
+U 1 1 618DEBCD
+P 6500 1950
+F 0 "J1" V 6725 1818 50  0000 C CNN
+F 1 "Conn_01x04_MountingPin" V 6634 1818 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 6500 1950 50  0001 C CNN
+F 3 "~" H 6500 1950 50  0001 C CNN
+	1    6500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 VCC1
+U 1 1 618E1BDB
+P 8350 2950
+F 0 "VCC1" H 8430 2992 50  0000 L CNN
+F 1 "Conn_01x01" H 8430 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8350 2950 50  0001 C CNN
+F 3 "~" H 8350 2950 50  0001 C CNN
+	1    8350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 DATA1
+U 1 1 618E1E7C
+P 7300 3050
+F 0 "DATA1" H 7380 3092 50  0000 L CNN
+F 1 "Conn_01x01" H 7380 3001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 GND1
+U 1 1 618E229E
+P 8350 3150
+F 0 "GND1" H 8430 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 8430 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8350 3150 50  0001 C CNN
+F 3 "~" H 8350 3150 50  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 618E3507
+P 6500 2750
+F 0 "#PWR0101" H 6500 2600 50  0001 C CNN
+F 1 "VCC" H 6515 2923 50  0000 C CNN
+F 2 "" H 6500 2750 50  0001 C CNN
+F 3 "" H 6500 2750 50  0001 C CNN
+	1    6500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 618E3A74
+P 8150 2950
+F 0 "#PWR0102" H 8150 2800 50  0001 C CNN
+F 1 "VCC" H 8165 3123 50  0000 C CNN
+F 2 "" H 8150 2950 50  0001 C CNN
+F 3 "" H 8150 2950 50  0001 C CNN
+	1    8150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 618E45C3
+P 8150 3150
+F 0 "#PWR0103" H 8150 2900 50  0001 C CNN
+F 1 "GND" H 8155 2977 50  0000 C CNN
+F 2 "" H 8150 3150 50  0001 C CNN
+F 3 "" H 8150 3150 50  0001 C CNN
+	1    8150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 618E49A2
+P 6500 3950
+F 0 "#PWR0104" H 6500 3700 50  0001 C CNN
+F 1 "GND" H 6505 3777 50  0000 C CNN
+F 2 "" H 6500 3950 50  0001 C CNN
+F 3 "" H 6500 3950 50  0001 C CNN
+	1    6500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 618E6AC7
+P 6400 2150
+F 0 "#PWR0105" H 6400 1900 50  0001 C CNN
+F 1 "GND" H 6405 1977 50  0000 C CNN
+F 2 "" H 6400 2150 50  0001 C CNN
+F 3 "" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 618E702A
+P 6900 1950
+F 0 "#PWR0106" H 6900 1700 50  0001 C CNN
+F 1 "GND" H 6905 1777 50  0000 C CNN
+F 2 "" H 6900 1950 50  0001 C CNN
+F 3 "" H 6900 1950 50  0001 C CNN
+	1    6900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 618E7333
+P 7150 2150
+F 0 "#PWR0107" H 7150 2000 50  0001 C CNN
+F 1 "VCC" H 7165 2323 50  0000 C CNN
+F 2 "" H 7150 2150 50  0001 C CNN
+F 3 "" H 7150 2150 50  0001 C CNN
+	1    7150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2150 6700 2150
+Wire Wire Line
+	6700 2150 7150 2150
+Connection ~ 6700 2150
+Wire Wire Line
+	6500 2150 6400 2150
+Connection ~ 6400 2150
+$Comp
+L Switch:SW_MEC_5E SW1
+U 1 1 61903857
+P 7900 3900
+F 0 "SW1" H 7900 4285 50  0000 C CNN
+F 1 "SW_MEC_5E" H 7900 4194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 7900 4200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 7900 4200 50  0001 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3550 7700 3550
+Wire Wire Line
+	7700 3550 7700 3800
+$Comp
+L power:GND #PWR0108
+U 1 1 619055C3
+P 8100 3900
+F 0 "#PWR0108" H 8100 3650 50  0001 C CNN
+F 1 "GND" H 8105 3727 50  0000 C CNN
+F 2 "" H 8100 3900 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    8100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61905F66
+P 7550 3900
+F 0 "R1" V 7343 3900 50  0000 C CNN
+F 1 "R" V 7434 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7480 3900 50  0001 C CNN
+F 3 "~" H 7550 3900 50  0001 C CNN
+	1    7550 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 61909F0C
+P 7400 3900
+F 0 "#PWR0109" H 7400 3750 50  0001 C CNN
+F 1 "VCC" H 7415 4073 50  0000 C CNN
+F 2 "" H 7400 3900 50  0001 C CNN
+F 3 "" H 7400 3900 50  0001 C CNN
+	1    7400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 618DF9ED
+P 6500 3350
+F 0 "U1" H 5971 3396 50  0000 R CNN
+F 1 "ATtiny85-20SU" H 5971 3305 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 6500 3350 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 6500 3350 50  0001 C CNN
+	1    6500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3800 8100 3900
+Connection ~ 8100 3900
+$EndSCHEMATC
